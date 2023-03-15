@@ -1,6 +1,6 @@
 
 body {
-  background: #7EFFB2;
+  background: linear-gradient(pink, rgb(107, 32, 32));
 }
 
 #text {
@@ -32,7 +32,7 @@ body {
   -o-transform:rotate(180deg);
   -moz-transform:rotate(180deg);
   -webkit-transform:rotate(180deg);
-  color:#057030;
+  color:#aa5e63;
 }
 
 #text div:nth-child(2) {
@@ -194,13 +194,23 @@ body {
 .container{
   
 	display: block;
-  margin-top: 22px;
-  background: linear-gradient(#2CD9FF, #7EFFB2);
+  margin-top: 30px;
+  background: linear-gradient(rgb(146, 46, 46),pink);
 	padding-top: 130px;
+	border-radius: 60px;
+	box-shadow: 0px -5px 7px rgb(158, 45, 75);
+}
+
+#text1{
+	text-align: center;
+	margin-bottom: 40px;
+	text-shadow: -6px -6px 5px rgb(202, 112, 112);
+	color:  rgb(210, 91, 91);
 }
 
 #heading{
   text-align: center;
+	text-shadow: 5px -5px 7px rgb(0, 0, 0);
 
 }
 
