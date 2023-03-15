@@ -32,7 +32,7 @@ body {
   -o-transform:rotate(180deg);
   -moz-transform:rotate(180deg);
   -webkit-transform:rotate(180deg);
-  color:#aa5e63;
+  color:#bb8488;
 }
 
 #text div:nth-child(2) {
@@ -208,9 +208,17 @@ body {
 	color:  rgb(210, 91, 91);
 }
 
+#text2{
+	text-align: center;
+	margin-bottom: 40px;
+	text-shadow: -6px -6px 5px rgb(202, 112, 112);
+	color:  rgb(54, 12, 12);
+}
+
 #heading{
   text-align: center;
-	text-shadow: 5px -5px 7px rgb(0, 0, 0);
+	text-shadow: 5px -5px 7px rgb(75, 6, 6);
+	color: #692429;
 
 }
 
