@@ -9,7 +9,7 @@ body {
   height:36px;
   left:50%;
   top:10%;
-  margin-left:-300px;
+  margin-left: -230px;
   overflow:visible;
   -webkit-user-select:none;
   -moz-user-select:none;
@@ -84,6 +84,20 @@ body {
   -o-animation-delay:1.6s;
   -moz-animation-delay:1.6s;
   -webkit-animation-delay:1.6s;
+}
+
+#text div:nth-child(10) {
+  animation-delay:1.8s;
+  -o-animation-delay:1.8s;
+  -moz-animation-delay:1.8s;
+  -webkit-animation-delay:1.8s;
+}
+
+#text div:nth-child(11) {
+  animation-delay:2.0s;
+  -o-animation-delay:2.0s;
+  -moz-animation-delay:2.0s;
+  -webkit-animation-delay:2.0s;
 }
 
 @keyframes move {
